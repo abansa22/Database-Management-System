@@ -1,0 +1,1 @@
+drop database chemical_waste ;
