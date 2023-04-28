@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>CS480 Demo</display-name>
+   <servlet>
+    <description></description>
+    <display-name>InitServlet</display-name>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>user.web.servlet.InitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/InitServlet</url-pattern>
+  </servlet-mapping>
+    
+    <servlet>  
+    <description></description>
+    <display-name>IndustryServletCreate</display-name>
+    <servlet-name>IndustryServletCreate</servlet-name>
+    <servlet-class>industry.web.servlet.IndustryServletCreate</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>IndustryServletCreate</servlet-name>
+    <url-pattern>/IndustryServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>IndustryServletRead</display-name>
+    <servlet-name>IndustryServletRead</servlet-name>
+    <servlet-class>industry.web.servlet.IndustryServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndustryServletRead</servlet-name>
+    <url-pattern>/IndustryServletRead</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>IndustryServletUpdate</display-name>
+    <servlet-name>IndustryServletUpdate</servlet-name>
+    <servlet-class>industry.web.servlet.IndustryServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndustryServletUpdate</servlet-name>
+    <url-pattern>/IndustryServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>EnvironmentServletCreate</display-name>
+    <servlet-name>EnvironmentServletCreate</servlet-name>
+    <servlet-class>environment.web.servlet.EnvironmentServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EnvironmentServletCreate</servlet-name>
+    <url-pattern>/EnvironmentServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>EnvironmentServletRead</display-name>
+    <servlet-name>EnvironmentServletRead</servlet-name>
+    <servlet-class>environment.web.servlet.EnvironmentServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EnvironmentServletRead</servlet-name>
+    <url-pattern>/EnvironmentServletRead</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>EnvironmentServletUpdate</display-name>
+    <servlet-name>EnvironmentServletUpdate</servlet-name>
+    <servlet-class>environment.web.servlet.EnvironmentServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EnvironmentServletUpdate</servlet-name>
+    <url-pattern>/EnvironmentServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ChemicalServletCreate</display-name>
+    <servlet-name>ChemicalServletCreate</servlet-name>
+    <servlet-class>chemical.web.servlet.ChemicalServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChemicalServletCreate</servlet-name>
+    <url-pattern>/ChemicalServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ChemicalServletRead</display-name>
+    <servlet-name>ChemicalServletRead</servlet-name>
+    <servlet-class>chemical.web.servlet.ChemicalServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChemicalServletRead</servlet-name>
+    <url-pattern>/ChemicalServletRead</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ChemicalServletUpdate</display-name>
+    <servlet-name>ChemicalServletUpdate</servlet-name>
+    <servlet-class>chemical.web.servlet.ChemicalServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChemicalServletUpdate</servlet-name>
+    <url-pattern>/ChemicalServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>EPAServletCreate</display-name>
+    <servlet-name>EPAServletCreate</servlet-name>
+    <servlet-class>epa.web.servlet.EPAServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EPAServletCreate</servlet-name>
+    <url-pattern>/EPAServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>EPAServletRead</display-name>
+    <servlet-name>EPAServletRead</servlet-name>
+    <servlet-class>epa.web.servlet.EPAServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EPAServletRead</servlet-name>
+    <url-pattern>/EPAServletRead</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>EPAServletDelete</display-name>
+    <servlet-name>EPAServletDelete</servlet-name>
+    <servlet-class>epa.web.servlet.EPAServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EPAServletDelete</servlet-name>
+    <url-pattern>/EPAServletDelete</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+    <description></description>
+    <display-name>Entity1ServletCreate</display-name>
+    <servlet-name>Entity1ServletCreate</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletCreate</servlet-name>
+    <url-pattern>/Entity1ServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Entity1ServletRead</display-name>
+    <servlet-name>Entity1ServletRead</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletRead</servlet-name>
+    <url-pattern>/Entity1ServletRead</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>Entity1ServletUpdate</display-name>
+    <servlet-name>Entity1ServletUpdate</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletUpdate</servlet-name>
+    <url-pattern>/Entity1ServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>Entity1ServletDelete</display-name>
+    <servlet-name>Entity1ServletDelete</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletDelete</servlet-name>
+    <url-pattern>/Entity1ServletDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletRegister</display-name>
+    <servlet-name>UserServletRegister</servlet-name>
+    <servlet-class>user.web.servlet.UserServletRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletRegister</servlet-name>
+    <url-pattern>/UserServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserServletLogin</display-name>
+    <servlet-name>UserServletLogin</servlet-name>
+    <servlet-class>user.web.servlet.UserServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletLogin</servlet-name>
+    <url-pattern>/UserServletLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletLogout</display-name>
+    <servlet-name>UserServletLogout</servlet-name>
+    <servlet-class>user.web.servlet.UserServletLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletLogout</servlet-name>
+    <url-pattern>/UserServletLogout</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>findAll</display-name>
+    <servlet-name>findAll</servlet-name>
+    
+    <servlet-class>user.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAll</servlet-name>
+    <url-pattern>/findAll</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
